@@ -116,4 +116,10 @@ Run the migration under Tools -> Entity Framework Core - > Update Database
 
 And check your database to see whether the table is created successfully.
 
+---
+Reference:
+https://blog.jetbrains.com/dotnet/2018/04/06/entity-framework-support-rider-2018-1/
+https://www.connectionstrings.com/sql-server/
+
+
 
