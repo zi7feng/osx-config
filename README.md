@@ -22,10 +22,10 @@ You can find your password after SA_PASSWORD.
 ## Download the IDE: JetBrains Rider 
 [Download Here](https://www.jetbrains.com/rider/download/#section=mac)
 
-### Create a New solution
+#### Create a New solution
 use Web App(MVC) template
 
-### Add dependencies:   
+#### Add dependencies:   
 entityCore.Design, entityCore.Tools, entityCore.SqlServer     (Right click the solution -> Manage NuGet Package)  
 select version 7.0.20 to align with the .Net version
 
@@ -34,7 +34,7 @@ select version 7.0.20 to align with the .Net version
 ## Configue .Net environment
 Download .Net 7 from [Download here](https://download.visualstudio.microsoft.com/download/pr/ff89348c-045e-4fdc-bd6c-31b6d3940420/7f6cb1235b86ee021a6186fbd8542a1e/dotnet-sdk-7.0.410-osx-arm64.pkg)
 
-### Add environment variables: 
+#### Add environment variables: 
 ```
 vim ~/.zshrc
 ```
@@ -46,22 +46,22 @@ export PATH=$PATH:$HOME/.dotnet:$HOME/.dotnet/tools
 ```
 to the end of the file.
 
-### Reload the resource file
+#### Reload the resource file
 ```
 source ~/.zshrc
 ```
 
-### Check your dotnet version
+#### Check your dotnet version
 ```
 dotnet --version
 ```
 
-### Install dotnet ef
+#### Install dotnet ef
 ```
 dotnet tool install --global dotnet-ef --version 7.0.20
 ```
 
-### Add environment variables:  
+#### Add environment variables:  
 ```
 vim ~/.zshrc
 ```
@@ -70,11 +70,11 @@ Add:
 export PATH="$PATH:$HOME/.dotnet/tools"
 ```
 to the end of the file.   
-### Reload the resource file
+#### Reload the resource file
 ```
 source ~/.zshrc
 ```
-### Check your dotnet ef version
+#### Check your dotnet ef version
 ```
 dotnet ef --version
 ```
