@@ -9,3 +9,15 @@ chmod +x gradlew
 
 npm i     
 Then yarn run android
+
+
+#### week 6
+in screen/First , remove import Checkbox, and run 
+```
+npm i expo-checkbox -f
+```
+Then change import:   
+```
+import CheckBox from 'expo-checkbox';
+
+```
